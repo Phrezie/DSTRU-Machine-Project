@@ -43,6 +43,7 @@ void initializeF() {
         }
     }
 }
+
 // function to check if a pair a pair (x,y) is in a players set
 int isInSet (int X[], int Y[], int size, int x, int y) {
     for (int i = 0; i < size; i++) {
