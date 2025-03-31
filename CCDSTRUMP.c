@@ -26,11 +26,10 @@ int tresSize = 0;
 int fSize = 16; // set F should have all valid pairs at first
 
 // winning combinations (Set C)
-int winningCoords[4][4][2] = {
+int winningCoords[3][4][2] = {
 	{{1,1}, {1,2}, {1,3}, {1,4}},  // winning combination 1
-    {{1,1}, {2,2}, {3,3}, {4,4}},  // winning combination 2
-    {{1,4}, {2,3}, {3,2}, {4,1}},  // winning combination 3
-    {{4,1}, {4,2}, {4,3}, {4,4}}   // winning combination 4
+    {{1,4}, {2,3}, {3,2}, {4,1}},  // winning combination 2
+    {{4,1}, {4,2}, {4,3}, {4,4}}   // winning combination 3
 };
 
 // function to initialize set F (valid moves of A x A)
